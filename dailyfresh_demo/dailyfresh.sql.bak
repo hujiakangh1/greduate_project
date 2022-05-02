@@ -1,0 +1,26 @@
+INSERT INTO goods_typeinfo(`id`,`isDelete`,`tpic`,`ttitle`) VALUES(1,False,'goods/2019/04/goods001.thumbnail.jpg','水果1');
+INSERT INTO goods_typeinfo(`id`,`isDelete`,`tpic`,`ttitle`) VALUES(2,False,'goods/2019/04/goods002.thumbnail.jpg','水果2');
+INSERT INTO goods_typeinfo(`id`,`isDelete`,`tpic`,`ttitle`) VALUES(3,False,'goods/2019/04/goods003.thumbnail.jpg','水果3');
+INSERT INTO goods_typeinfo(`id`,`isDelete`,`tpic`,`ttitle`) VALUES(4,False,'goods/2019/04/goods004.thumbnail.jpg','水果4');
+INSERT INTO goods_typeinfo(`id`,`isDelete`,`tpic`,`ttitle`) VALUES(5,False,'goods/2019/04/goods010.thumbnail.jpg','水果5');
+INSERT INTO goods_typeinfo(`id`,`isDelete`,`tpic`,`ttitle`) VALUES(6,False,'goods/2019/04/goods018.thumbnail.jpg','水果6');
+-- INSERT INTO goods_typeinfo(`id`,`isDelete`,`tpic`,`ttitle`) VALUES(7,False,'goods/2019/04/goods019.thumbnail.jpg','水果7');
+-- INSERT INTO goods_typeinfo(`id`,`isDelete`,`tpic`,`ttitle`) VALUES(8,False,'goods/2019/04/goods020.thumbnail.jpg','水果8');
+-- INSERT INTO goods_typeinfo(`id`,`isDelete`,`tpic`,`ttitle`) VALUES(9,False,'goods/2019/04/nr01.thumbnail.jpg','水果9');
+-- INSERT INTO goods_typeinfo(`id`,`isDelete`,`tpic`,`ttitle`) VALUES(10,False,'goods/2019/04/nr01.thumbnail.jpg','水果10');
+-- INSERT INTO goods_typeinfo(`id`,`isDelete`,`tpic`,`ttitle`) VALUES(11,False,'goods/2019/04/nr03.thumbnail.jpg','水果11');
+INSERT into goods_goodsinfo(`isDelete`,`gtitle`,`gpic`,`gprice`,`gunit`,`gclick`,`gjianjie`,`gkucun`,`gcontent`,`gtype_id`) 
+VALUES(False,'水果1','goods/2019/04/goods001.thumbnail.jpg','15.00','元',100,'这是jianjie字段值',111,'这是content字段值',1),
+(False,'水果2','goods/2019/04/goods002.thumbnail.jpg','5.00','元',21423,'这是jianjie字段值',1456,'这是content字段值',2),
+(False,'水果3','goods/2019/04/goods003.thumbnail.jpg','34.00','元',1233,'这是jianjie字段值',345234,'这是content字段值',3),
+(False,'水果4','goods/2019/04/goods004.thumbnail.jpg','76.00','元',1000,'这是jianjie字段值',4532,'这是content字段值',4),
+(False,'水果5','goods/2019/04/goods010.thumbnail.jpg','7.00','元',214,'这是jianjie字段值',146,'这是content字段值',5),
+(False,'水果6','goods/2019/04/goods018.thumbnail.jpg','100.00','元',254,'这是jianjie字段值',3234,'这是content字段值',6);
+-- (False,'水果7','goods/2019/04/goods019.thumbnail.jpg','6.00','元',689,'这是jianjie字段值',4567,'这是content字段值',7),
+-- (False,'水果8','goods/2019/04/goods020.thumbnail.jpg','34.00','元',456,'这是jianjie字段值',8792,'这是content字段值',8),
+-- (False,'水果9','goods/2019/04/nr01.thumbnail.jpg','98.00','元',938,'这是jianjie字段值',82,'这是content字段值',9),
+-- (False,'水果10','goods/2019/04/nr01.thumbnail.jpg','7.00','元',23,'这是jianjie字段值',34352,'这是content字段值',10),
+-- (False,'水果11','goods/2019/04/nr03.thumbnail.jpg','34.00','元',124,'这是jianjie字段值',54,'这是content字段值',11)
+
+
+-- 
